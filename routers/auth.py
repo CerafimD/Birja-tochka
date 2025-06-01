@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 from uuid import uuid4
 
 from db import get_db
-from models import UserDB, RoleEnum
+from models import UserDB, RoleEnum, Transaction
 from schemas import NewUser, User
 from utils import generate_api_key
 
